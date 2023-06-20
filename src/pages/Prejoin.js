@@ -1,7 +1,6 @@
-import "./App.css";
 import { Mic, Video } from "./utils/icons";
 
-function App() {
+function Prejoin() {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex justify-between px-5 pt-3">
@@ -47,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+export default Prejoin;
