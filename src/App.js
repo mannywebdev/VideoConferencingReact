@@ -1,9 +1,9 @@
 import "./App.css";
-import { Mic, Video } from "./utils/icons";
+import { Keyboard, NewMeet } from "./utils/icons";
 
 function App() {
   return (
-    <div className="flex flex-col h-screen">
+    <div>
       <div className="flex justify-between px-5 pt-3">
         <img
           className="w-48"
@@ -19,29 +19,31 @@ function App() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row flex-grow justify-center items-center m-4">
-        <div className="max-w-3xl w-full mb-4">
-          <div className="aspect-video bg-stone-900 rounded-xl drop-shadow-xl relative">
-            <div className="text-xl text-white absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              Camera is off
+      <div className="flex">
+        <div>
+          <h1 className="text-3xl">Premium video meetings. Now free for everyone.</h1>
+          <p className="text-stone-600">
+            We re-engineered the service that we built for secure business meetings, Google Meet, to make it free and
+            available for all.
+          </p>
+          <button className="text-sm text-white rounded-md bg-blue-600 hover:bg-blue-700 py-2.5 px-4 hover:drop-shadow-lg mr-4">
+            {NewMeet("20", "20", "#fff", "inline-block mr-1")} New Meeting
+          </button>
+
+          <div class="relative rounded-md inline-block">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              {Keyboard("20", "20", "#353535", "inline-block mr-1")}
             </div>
-            <div className="absolute bottom-0 mb-2 left-1/2 transform -translate-x-1/2 ">
-              <button className="border-2 rounded-full p-2 m-2 hover:bg-stone-600">
-                {Mic}
-              </button>
-              <button className="border-2 rounded-full p-2 m-2 hover:bg-stone-600">
-                {Video}
-              </button>
-            </div>
+            <input
+              type="text"
+              name="price"
+              id="price"
+              className="text-sm rounded-md border-0 py-2.5 pl-10 pr-10 text-gray-900 ring-1 ring-inset ring-stone-500 placeholder:text-stone-500 focus:ring-1 focus:ring-inset focus:ring-blue-700"
+              placeholder="Enter a code or link"
+            />
           </div>
         </div>
-        <div className="flex flex-col items-center m-4 w-96">
-          <h3 className="text-2xl">Ready to join?</h3>
-          <p className="text-sm my-4">No one else is here</p>
-          <button class="text-sm text-white rounded-full bg-blue-500 hover:bg-blue-600 px-4 py-2">
-            Join now
-          </button>
-        </div>
+        <div></div>
       </div>
     </div>
   );
