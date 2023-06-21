@@ -20,18 +20,17 @@ function App() {
         </div>
       </div>
       <div className="flex">
-        <div>
-          <h1 className="text-3xl">Premium video meetings. Now free for everyone.</h1>
-          <p className="text-stone-600">
+        <div className="w-1/2 px-16 py-4">
+          <h1 className="text-3xl pb-4">Premium video meetings. Now free for everyone.</h1>
+          <p className="text-stone-600 pb-8">
             We re-engineered the service that we built for secure business meetings, Google Meet, to make it free and
             available for all.
           </p>
           <button className="text-sm text-white rounded-md bg-blue-600 hover:bg-blue-700 py-2.5 px-4 hover:drop-shadow-lg mr-4">
             {NewMeet("20", "20", "#fff", "inline-block mr-1")} New Meeting
           </button>
-
-          <div class="relative rounded-md inline-block">
-            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+          <div className="relative rounded-md inline-block mr-1.5">
+            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
               {Keyboard("20", "20", "#353535", "inline-block mr-1")}
             </div>
             <input
@@ -42,8 +41,18 @@ function App() {
               placeholder="Enter a code or link"
             />
           </div>
+          <button className="text-sm text-blue-600  rounded-md hover:bg-blue-200 py-2.5 px-4 mr-4">Join</button>
+          <p className="text-stone-600 border-t border-stone-300 my-8 py-4">
+            <span className="text-blue-700">Learn more </span>about Google Meet
+          </p>
         </div>
-        <div></div>
+        <div className="w-1/2 px-16 py-4">
+          <img
+            className="rounded-full mx-auto"
+            alt=""
+            src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg"
+          />
+        </div>
       </div>
     </div>
   );
