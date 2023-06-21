@@ -21,7 +21,7 @@ function App() {
       </div>
       <div className="flex">
         <div className="w-1/2 px-16 py-4">
-          <h1 className="text-3xl pb-4">Premium video meetings. Now free for everyone.</h1>
+          <h1 className="text-4xl pb-4">Premium video meetings. Now free for everyone.</h1>
           <p className="text-stone-600 pb-8">
             We re-engineered the service that we built for secure business meetings, Google Meet, to make it free and
             available for all.
