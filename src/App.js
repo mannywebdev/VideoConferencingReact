@@ -21,7 +21,7 @@ function App() {
             <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">{Keyboard("20", "20", "#353535", "inline-block mr-1")}</div>
             <input type="text" name="price" id="price" className="text-sm rounded-md border-0 py-2.5 pl-10 pr-10 text-gray-900 ring-1 ring-inset ring-stone-500 placeholder:text-stone-500 focus:ring-1 focus:ring-inset focus:ring-blue-700" placeholder="Enter a code or link" />
           </div>
-          {/* <button className="text-sm text-blue-600 rounded-md hover:bg-blue-200 py-2.5 px-4 mb-4">Join</button> */}
+          {/* <button className="text-sm text-blue-600 rounded-md hover:bg-blue-50 py-2.5 px-4 mb-4">Join</button> */}
           <p className="text-stone-600 border-t border-stone-300 mt-4 pt-4">
             <span className="text-blue-700">Learn more </span>about Google Meet
           </p>
@@ -43,6 +43,26 @@ function App() {
             <div className=" bg-blue-700 w-1.5 h-1.5 m-1 rounded-full"></div>
             <div className=" bg-blue-700 w-1.5 h-1.5 m-1 rounded-full"></div>
           </div>
+          {/* Meetings List */}
+          {/* <div className="flex flex-col sm:flex-row shadow-md rounded-lg p-3 items-center ring-2 ring-gray-50 mb-3 text-center sm:text-left">
+            <img className="w-12 mr-3" alt="" src="https://www.gstatic.com/meet/security_shield_356739b7c38934eec8fb0c8e93de8543.svg" />
+            <div className="mr-3 mt-3 sm:mt-0">
+              <h3 className="text-md">Your meeting is safe</h3>
+              <p className="text-xs text-stone-600">No one can join a meeting unless invited or admitted by the host</p>
+            </div>
+            <button className="text-xs text-blue-600 rounded-md hover:bg-blue-50 py-2 px-4 min-w-fit">Learn More</button>
+          </div>
+          <div className="shadow-md rounded-lg items-center ring-2 ring-gray-50 mb-3 max-h-96 overflow-auto">
+            <div className="flex p-5">
+              <span className="text-stone-500 mr-5">01:30</span>
+              <h3 className="text-md">Discussion related fact finding of health</h3>
+            </div>
+            <hr />
+            <div className="flex p-5">
+              <span className="text-stone-500 mr-5">01:30</span>
+              <h3 className="text-md">Discussion related fact finding of health</h3>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>
