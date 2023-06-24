@@ -1,4 +1,5 @@
-import { Mic, Video } from "./utils/icons";
+import React from "react";
+import { Mic, Video } from "../utils/icons";
 
 function Prejoin() {
   return (
@@ -15,15 +16,15 @@ function Prejoin() {
           <div className="aspect-video bg-stone-900 rounded-xl drop-shadow-xl relative">
             <div className="text-xl text-white absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">Camera is off</div>
             <div className="absolute bottom-0 mb-2 left-1/2 transform -translate-x-1/2 ">
-              <button className="border-2 rounded-full p-2 m-2 hover:bg-stone-600">{Mic}</button>
-              <button className="border-2 rounded-full p-2 m-2 hover:bg-stone-600">{Video}</button>
+              <button className="border-2 rounded-full p-2 m-2 hover:bg-stone-600">{Mic("24", "24", "#fff", "")}</button>
+              <button className="border-2 rounded-full p-2 m-2 hover:bg-stone-600">{Video("24", "24", "#fff", "")}</button>
             </div>
           </div>
         </div>
         <div className="flex flex-col items-center m-4 w-96">
           <h3 className="text-2xl">Ready to join?</h3>
           <p className="text-sm my-4">No one else is here</p>
-          <button class="text-sm text-white rounded-full bg-blue-600 hover:bg-blue-700 px-4 py-2">Join now</button>
+          <button className="text-sm text-white rounded-full bg-blue-600 hover:bg-blue-700 px-4 py-2">Join now</button>
         </div>
       </div>
     </div>
