@@ -11,6 +11,14 @@ module.exports = {
         mustardColor: "#f2b262", // RGB(242,178,98)
         grayColor: "#f5f5f5", // RGB(245,245,245)
       },
+      fontSize: {
+        "4xl": [
+          "2.6rem",
+          {
+            lineHeight: "3rem",
+          },
+        ],
+      },
     },
   },
   plugins: [],
