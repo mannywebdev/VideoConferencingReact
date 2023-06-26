@@ -5,7 +5,7 @@ function Prejoin() {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex justify-between px-5 pt-3">
-        <img className="w-48" src="https://www.gstatic.com/meet/google_meet_primary_horizontal_2020q4_logo_be3f8c43950bd1e313525ada2ce0df44.svg" alt="logo" />
+        <img className="w-36" src="https://www.gstatic.com/meet/google_meet_primary_horizontal_2020q4_logo_be3f8c43950bd1e313525ada2ce0df44.svg" alt="logo" />
         <div className="flex justify-between items-center">
           <span className="text-sm mr-2">Manpreet Singh</span>
           <img className="w-8 rounded-full" alt="" src="https://lh3.googleusercontent.com/a/AAcHTtccVF8kvTMOKdYT4Ia3aBiikb3lAml1QvrFm9DG8g=s192-c-mo" />
